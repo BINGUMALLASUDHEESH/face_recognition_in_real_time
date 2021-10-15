@@ -4,7 +4,7 @@ import cv2 # OpenCV module
 import numpy as np #numpy to convert python lists to numpy arrays as it is needed by OpenCV face recognizers
 import os #os module for reading training data directories and paths
 
-subjects = ["teja","virat_kohli","others"]
+subjects = ["sudheesh","anjali_chanda","others"]
 
 def detect_face(img):
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
